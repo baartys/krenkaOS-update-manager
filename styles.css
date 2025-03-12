@@ -1,0 +1,34 @@
+/* Main window */
+#main_window {
+    background-color: #f4f4f4;
+}
+
+/* Title Label */
+#title_label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Buttons */
+button {
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#exit_button {
+    background: red;
+}
+
+#exit_button:hover {
+    background: darkred;
+}
