@@ -1,34 +1,51 @@
-/* Main window */
+/* Main Window */
 #main_window {
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 /* Title Label */
 #title_label {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
-    color: #333;
+    color: #1a1a1a;
+}
+
+/* Status Label */
+#status_label {
+    font-size: 18px;
+    font-style: normal;
+    color: #0078d4; /* Windows blue */
 }
 
 /* Buttons */
 button {
-    background: #007bff;
+    background: #0078d4;
     color: white;
     font-size: 16px;
     font-weight: bold;
     border: none;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
 }
 
 button:hover {
-    background: #0056b3;
+    background: #005a9e;
 }
 
+/* Exit Button */
 #exit_button {
-    background: red;
+    background: #d9534f;
 }
 
 #exit_button:hover {
-    background: darkred;
+    background: #c9302c;
+}
+
+#about_button {
+    background: lime;
+}
+
+#about_button:hover {
+    background: green;
 }
